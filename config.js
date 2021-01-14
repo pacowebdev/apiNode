@@ -4,8 +4,8 @@ exports.data = {
     config : {
         host: 'localhost',
         port: 8889, 
-        user: 'root',
-        password: 'root',
+        user: '######',
+        password: '########',
         database: 'recette-facile'
     },
     tabs: ['recettes', 'hashtags', 'assoc_hashtags_recettes']
@@ -13,8 +13,8 @@ exports.data = {
     // config : {
     //     host: 'localhost',
     //     port: 8889,
-    //     user: 'root',
-    //     password: 'root',
+    //     user: '#####',
+    //     password: '#########',
     //     database: 'foodStock'
     // },
     // tabs: {
