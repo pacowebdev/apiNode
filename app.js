@@ -26,21 +26,14 @@ data.tabs.forEach(item => {
 // requestSql( --InsertSql-- )
 
 // SELECT
-sqlSelect = "SELECT * FROM `recettes`"
+
 // INSERT
-sqlInsert = "INSERT INTO `recettes` (`recette_id`, `recette_titre`, `recette_contenu`, `recette_datetime`) VALUES (NULL, 'tarte aux fraises', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, totam. Atque iure eaque illo distinctio repellat pariatur excepturi voluptas, consequatur sapiente vitae maiores possimus veritatis.', NOW())"
 
 // UPDATE
-sqlUpdate = "UPDATE `recettes` SET `recette_titre` = '😺 tarte aux fraises', `recette_contenu` = '->MODIFY<- Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, totam. Atque iure eaque illo distinctio repellat pariatur excepturi voluptas, consequatur sapiente vitae maiores possimus veritatis.', `recette_datetime` = '2021-01-11 11:04:49' WHERE `recettes`.`recette_id` = 3"
 
 // DELETTE
-sqlDelete = "DELETE FROM `recettes` WHERE `recettes`.`recette_id` = 3"
 
-// INSERT 'levain'
-sqlLevain = "INSERT INTO `hashtags` (`hashtag_id`, `hashtag_nom`) VALUES (NULL, 'levain')"
-
-// ASSOC 'levain' as 'pain'
-sqlAssocLevain = "INSERT INTO `assoc_hashtags_recettes` (`assoc_hr_id`, `assoc_hr_hashtag_id`, `assoc_hr_recette_id`) VALUES (NULL, '4', '1')"
+// INSERT 
 
 // functions --->
 function requestSql(sql) {
